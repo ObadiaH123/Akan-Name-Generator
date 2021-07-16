@@ -129,3 +129,13 @@
     opacity: 0.8;
 }
 
+/* styles for the form section */
+.calc h4{
+    text-align: center;
+    color:red;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+  .calc{
+    width: auto;
+  }
