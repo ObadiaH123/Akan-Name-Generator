@@ -34,13 +34,15 @@
         <div class="calc">
           <h2>Calculate here</h2>
           <form action="#" onsubmit="obtainAkanName()">
-            <input class="form-control" type="number" min="1" max="31" name="Day" placeholder="Date" required />
-            <input class="form-control" type="number" min="1" max="12" name="month" placeholder="month" required/>
-            <input class="form-control" type="number" min="1900" max="2021" name="year" placeholder="Year of birth" required />
-            <br>
+              <input class="form-control" type="number" min="1" max="31" name="Day" placeholder="Date" required />
+              <input class="form-control" type="number" min="1" max="12" name="month" placeholder="month" required/>
+              <input class="form-control" type="number" min="1900" max="2021" name="year" placeholder="Year of birth" required />
+                  <br>
             <h3>Select Your Gender</h3>
-            <option value="">Male</option>
-            <option value="">Female</option>
+            <select class="form-control" name="Gender" id="gender">
+              <option value="">Male</option>
+              <option value="">Female</option>
+            </select>
 
             
           </form>
