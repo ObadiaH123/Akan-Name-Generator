@@ -38,7 +38,7 @@
     background-image: url('/assets/images/img2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 650px;
   }
 
   /* styles for the left hand side of the page */
@@ -58,15 +58,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-color: chocolate;
     margin: auto;
+    width: 300px;
+    height:100%;
+    padding-top: 23%;
     grid-area: sidebar;
     /*text-align: center;
     margin: initial;
     height: 70%;
     background-color: darkgoldenrod; */
   }
+
 
   li{
       width: auto;
@@ -85,13 +88,13 @@
 
   /* styles for clock */
   #clockContainer {
-    background-color: darkorange;
+    /* background-color: darkorange; */
     position: relative;
     margin: auto;
     height: 40vw;
     /*to make the height and width responsive*/
     width: 20%;
-    background: url('/assets/images/clock.jpg') no-repeat;
+    background: url('/assets/images/clock.png') no-repeat;
     /*setting our background image*/
     background-size: 100%;
 }
@@ -106,6 +109,7 @@
 }
   
 #hour {
+  color: aqua;
     width: 1.8%;
     height: 9%;
     top: 5%;
@@ -142,7 +146,7 @@
     height: auto;
     margin-top: 4rem;
     position: absolute;
-    top:58%;
+    top:62%;
     left:50%;
     transform:translate(-50%,-50%);
     text-align: center;
@@ -150,6 +154,12 @@
     box-shadow: 0px 0px 50px chartreuse;
     background-color: white;
   }
+  /* @media (max-width: 1178px) {
+    .calc{
+      width: 300px;
+      left: 45%;
+    }
+  } */
   .button{
     margin: 5px auto;
     text-align: center;
