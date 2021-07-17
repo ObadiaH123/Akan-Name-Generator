@@ -31,3 +31,8 @@ setInterval(() => {
         return[gender, day, month, year];
 
     }
+
+    function calculateWeekDay(birthDate){
+        let [dayOfMonth, monthOfYear, yearOfBirth] = birthDate;
+        let zeroBasedCentury, yearOfCentury;
+    }   
