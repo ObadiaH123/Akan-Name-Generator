@@ -35,4 +35,11 @@ setInterval(() => {
     function calculateWeekDay(birthDate){
         let [dayOfMonth, monthOfYear, yearOfBirth] = birthDate;
         let zeroBasedCentury, yearOfCentury;
+
+        if(monthOfYear <= 2){
+            monthOfYear += 12;
+            yearOfBirth -= 1;
+        }
+
+        
     }   
