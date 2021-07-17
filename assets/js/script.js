@@ -41,5 +41,33 @@ setInterval(() => {
             yearOfBirth -= 1;
         }
 
-        
-    }   
+        zeroBasedCentury = parseInt(yearOfBirth / 100);
+        yearOfCentury = yearOfBirth % 100;
+
+        let dayOfWeek =
+            (dayOfMonth +
+                parseInt(
+                    2.6 * (monthOfYear + 1) +
+                        yearOfCentury + 
+                        parseInt(yearOfCentury / 4) +
+                        parseInt(zeroBasedCentury / 4) +
+                        5 * zeroBasedCentury
+                )) %
+            7;
+        return dayOfWeek;
+     }   
+
+     function obtainAkanName() {
+         let formData = fetchFormData();
+         let userBirthDate, userGender, dayOfWeek;
+         
+         [userGender, ...userBirthDate] = formData;
+
+         if(userGender === "Male") {
+             alert("Your Akan Name is: " + maleAkanNames[dayOfWeek]);
+         }
+         else{
+             alert("Your Akan Names is: " + femaleAkanNames[dayOfWeek]);
+            }
+        return false;
+     }
