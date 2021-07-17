@@ -16,3 +16,18 @@ setInterval(() => {
 // js codes for the form validation
     const maleAkanNames = ["Kwame", "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi"];
     const femaleAkanNames = ["Ama", "Akosua", "Adwoa", "Abena", "Akua", "Yaa", "Afua"];
+
+    function fetchFormData() {
+        let form = document.forms[0];
+        let gender;
+            gender = form.gender.value
+        let day;
+            day =parseInt(form.day.value);
+        let month;
+            month =parseInt(form.month.value);
+        let year;
+            year = parseInt(form.year.value);
+
+        return[gender, day, month, year];
+
+    }
