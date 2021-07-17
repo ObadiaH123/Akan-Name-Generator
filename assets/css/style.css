@@ -169,6 +169,13 @@
       left: 45%;
     }
   } */
+
+  .form-control{
+    width: 100px;
+    height: fit-content;
+
+  }
+
   .button{
     margin: 5px auto;
     text-align: center;

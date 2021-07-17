@@ -14,18 +14,32 @@ setInterval(() => {
 
 
 // js codes for the form validation
-    const maleAkanNames = ["Kwame", "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi"];
-    const femaleAkanNames = ["Ama", "Akosua", "Adwoa", "Abena", "Akua", "Yaa", "Afua"];
+const femaleAkanNames = [
+    "Ama",
+    "Akosua",
+    "Adwoa",
+    "Abenaa",
+    "Akua",
+    "Yaa",
+    "Afua"
+  ];
+  const maleAkanNames = [
+    "Kwame",
+    "Kwasi",
+    "Kwadwo",
+    "Kwabena",
+    "Kwaku",
+    "Yaw",
+    "Kofi"
+  ];
 
     function fetchFormData() {
         let form = document.forms[0];
-        let gender;
+        let day, month, year, gender;
+        gender = form.gender.value;
             gender = form.gender.value
-        let day;
-            day =parseInt(form.day.value);
-        let month;
-            month =parseInt(form.month.value);
-        let year;
+            day = parseInt(form.day.value);
+            month = parseInt(form.month.value);
             year = parseInt(form.year.value);
 
         return[gender, day, month, year];
@@ -62,6 +76,7 @@ setInterval(() => {
          let userBirthDate, userGender, dayOfWeek;
          
          [userGender, ...userBirthDate] = formData;
+         dayOfWeek = calculateWeekDay(userBirthDate);
 
          if(userGender === "Male") {
              alert("Your Akan Name is: " + maleAkanNames[dayOfWeek]);
