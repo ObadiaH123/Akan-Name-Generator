@@ -26,11 +26,20 @@
      }
   }
     
-.main-head {
+  .main-head {
     grid-area: header;
-    background-color: aqua;
-    height: 6rem;
+    /* background-color: aqua; */
+    height: fit-content;
+      }
+  .main-head h1{
+    color: rgb(41, 92, 185);
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    text-shadow: 5px 5px 5px aqua;
   }
+    
 
   /* styles for the main content div */
   .content {
@@ -146,7 +155,7 @@
     height: auto;
     margin-top: 4rem;
     position: absolute;
-    top:62%;
+    top:70%;
     left:50%;
     transform:translate(-50%,-50%);
     text-align: center;

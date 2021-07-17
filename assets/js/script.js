@@ -13,3 +13,6 @@ setInterval(() => {
 }, 1000);
 
 
+// js codes for the form validation
+    const maleAkanNames = ["Kwame", "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi"];
+    const femaleAkanNames = ["Ama", "Akosua", "Adwoa", "Abena", "Akua", "Yaa", "Afua"];
