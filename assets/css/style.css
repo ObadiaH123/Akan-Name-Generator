@@ -190,7 +190,8 @@
   
   @keyframes blinker {
     50% {
-      opacity: 0;font-family: 'Rock Salt', cursive;
+      opacity: 0;
+      /*font-family: 'Rock Salt', cursive; */
     }
   }
 
