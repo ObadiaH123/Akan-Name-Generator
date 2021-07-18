@@ -1,7 +1,7 @@
 # Website of Generating Akan Names based on Data Entered in the form
  Most people do know when their birthdays are, but some might not know what day of the week they were born. Luckily for us, we have this website to enable us identify the day we were born and assign us the Akan name.
 ## Author
-By Kiprotich Bett Bernard
+<p style="font-weight: 700;">By Kiprotich Bett Bernard</p>
 # Description
 This project has a navigation bar with just a name of the website, the main body containa small section of dexcription and a form containing text area of date, month, year and a checkbox to select a gender then lastly a button to generate the results based on the data entered in the form. The results is relayed in form of a pop-up in the upper side of the screen. Aside is a table showing weekdays and depending on the gender, it has specific Akan name. Lastly is a FOOTER containing the Contact/ address of the Company, Location and Branches.
 # active link to My Website
