@@ -1,6 +1,6 @@
 /* this styles for the whole body div */
 .wrapper {
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: grid;
     gap: 20px;
@@ -89,10 +89,47 @@
   .main-footer {
     grid-area: footer;
     text-align: center;
-    height: 10rem;
+    height: fit-content;
     background-color: lightseagreen;
 
   }
+
+  footer{
+    background-color: aqua;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: 'Akaya Kanadaka', cursive;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 30px; */
+
+}
+
+h5{
+    font-size: 20px;
+}
+
+.contact1{
+    width: 32%;
+}
+
+.branches{
+    width: 32%;
+}
+
+.offer{
+    width: 32%;
+}
+
+
+.copy{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
 
 
   /* styles for clock */
@@ -100,7 +137,7 @@
     /* background-color: darkorange; */
     position: relative;
     margin: auto;
-    height: 40vw;
+    height: 45vw;
     /*to make the height and width responsive*/
     width: 20%;
     background: url('/assets/images/clock.png') no-repeat;
@@ -112,7 +149,7 @@
 #minute,
 #second {
     position: absolute;
-    background: chocolate;
+    background:black;
     border-radius: 10px;
     transform-origin: bottom;
 }
