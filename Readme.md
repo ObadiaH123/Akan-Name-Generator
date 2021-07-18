@@ -13,9 +13,10 @@ This is the Landing Page of The Website. It contains the Navigation Bar, Main Bo
 <image src= "assets/images/landing.png">
 <p>&nbsp;</p>
 The Main body page contains the form where and individual fill the date, month and Year of birth, select the Gender and Click the blicking button (Tap to Generate) to output the name basing on data entered in a form.
-<image src= "assets/images/mainpage.png">
+<image src= "assets/images/mainpage1.png">
 This is the footer of my website. It contain my address, My company name, Branches of my company.
 <image src= "assets/images/footer.png">
+
 ## Setup/Installation Requirements
 git <br>
 browser <br>
