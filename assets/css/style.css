@@ -44,7 +44,7 @@
   /* styles for the main content div */
   .content {
     grid-area: content;
-    background:linear-gradient(to bottom,rgba(20, 5, 105, 0.7),rgba(69, 151, 49, 0.6),rgba(27,56,0,.8));
+    background:linear-gradient(to bottom,rgba(34, 3, 211, 0.7),rgba(82, 156, 63, 0.6),rgba(25, 48, 5, 0.8));
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
