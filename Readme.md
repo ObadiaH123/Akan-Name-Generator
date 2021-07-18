@@ -18,11 +18,11 @@ This is the footer of my website. It contain my address, My company name, Branch
 <image src= "assets/images/footer.png">
 
 ## Setup/Installation Requirements
-git <br>
-browser <br>
-internet <br>
-a PC <br>
-text Editor(Visual Studio) <br>
+* Git <br>
+* Browser (Chrome or Firefox) <br>
+* Internet Connection <br>
+* A PC <br>
+* Text Editor(Visual Studio) <br>
 ## known bugs
 There are known bugs at the moment
 ## Technologies used <br>
