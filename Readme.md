@@ -3,8 +3,7 @@
 ## Author
 By Kiprotich Bett Bernard
 # Description
-This project has a navigation bar with 7 items that is my name,portfolio which is home, about, skills, work, contact section and search bar, in that about section you can get to see my story.
-The contact section will give you a  way so can leave me a message to reach you later the soonest, entering your email, phone number, and a message.
+This project has a navigation bar with just a name of the website, the main body containa small section of dexcription and a form containing text area of date, month, year and a checkbox to select a gender then lastly a button to generate the results based on the data entered in the form. The results is relayed in form of a pop-up in the upper side of the screen. Aside is a table showing weekdays and depending on the gender, it has specific Akan name. Lastly is a FOOTER containing the Contact/ address of the Company, Location and Branches.
 # active link to My Website
 [a link] (https://obadiah123.github.io/Akan-Name-Generator/)
 ## screenshots of our website
