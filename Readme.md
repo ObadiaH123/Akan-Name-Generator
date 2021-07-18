@@ -1,5 +1,5 @@
-# Landing page of my portfolio
-This is a landing page of my portfolio project , it contain active links to showcase some of the projects that have done so far in my journey as a web developer.
+# Website of Generating Akan Names based on Data Entered in the form
+ Most people do know when their birthdays are, but some might not know what day of the week they were born. Luckily for us, we have this website to enable us identify the day we were born and assign us the Akan name.
 ## Author
 By Kiprotich Bett Bernard
 # Description
