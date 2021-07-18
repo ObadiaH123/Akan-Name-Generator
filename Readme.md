@@ -12,7 +12,7 @@ The contact section will give you a  way so can leave me a message to reach you 
 This is the Landing Page of The Website. It contains the Navigation Bar, Main Body And the aside section Containing a table of Akan Names Derived.
 <image src= "assets/images/landing.png">
 <p>&nbsp;</p>
-<p style="color:black; font-weight:700;">The Main body page contains the form where and individual fill the date, month and Year of birth, select the Gender and Click the blicking button (Tap to Generate) to output the name basing on data entered in a form.</p>
+<p style="color:black; font-weight:700; font-size:20px;">The Main body page contains the form where and individual fill the date, month and Year of birth, select the Gender and Click the blicking button (Tap to Generate) to output the name basing on data entered in a form.</p>
 <image src= "assets/images/mainpage.png">
 ## Setup/Installation Requirements
 git <br>
