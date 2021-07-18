@@ -34,8 +34,8 @@
   .main-head h1{
     color: rgb(41, 92, 185);
     font-weight: 700;
-    font-size: 50px;
-    font-family: 'Rock Salt', cursive;
+    font-size: 80px;
+    font-family: 'Cabin Sketch', cursive;
     text-align: center;
     text-shadow: 5px 5px 5px aqua;
   }
@@ -44,7 +44,7 @@
   /* styles for the main content div */
   .content {
     grid-area: content;
-    background-image: url('https://twitter.com/ItsEngObadiah/status/1416651384267677696/photo/1');
+    background:linear-gradient(to bottom,rgba(20, 5, 105, 0.7),rgba(69, 151, 49, 0.6),rgba(27,56,0,.8));
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
@@ -65,7 +65,6 @@
   .side {
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: chocolate;
     margin: auto;
     width: 300px;
@@ -76,6 +75,12 @@
     margin: initial;
     height: 70%;
     background-color: darkgoldenrod; */
+  }
+
+  th{
+    color: cyan;
+    font-size: 20px;
+    font-weight: 700;
   }
 
 
@@ -99,50 +104,57 @@
     padding-right: 150px;
     font-family: 'Akaya Kanadaka', cursive;
 
-}
-.footer{
+      }
+
+  .footer{
     display: flex;
     justify-content: space-between;
-    /* margin-top: 30px; */
+        }
 
-}
-
-h5{
+  h5{
     font-size: 20px;
-}
+    }
 
-.contact1{
-    width: 32%;
-}
-
-.branches{
-    width: 32%;
-}
-
-.offer{
-    width: 32%;
-}
-
-
-.copy{
-    text-align: center;
-    font-weight: 700;
+  h4{
+    color: coral;
+    font-weight: 600;
     font-size: 20px;
-}
+  }
+
+
+  .contact1{
+        width: 32%;
+      }
+
+  .branches{
+       width: 32%;
+      }
+
+  .offer{
+      width: 32%;
+    }
+
+
+  .copy{
+      text-align: center;
+      font-weight: 700;
+      font-size: 20px;
+      color: firebrick;
+      }
 * styles for the form section */
-.calc h4{
-    text-align: center;
-    color:red;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 700;
-}
+  .calc h4{
+      text-align: center;
+      color:red;
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: 700;
+      }
   .calc{
-    width: 500px;
+    width: 600px;
     height: auto;
     margin-top: 4rem;
     position: absolute;
-    top: 67%;
+    top: 55%;
     left:50%;
     transform:translate(-50%,-50%);
     text-align: center;
@@ -170,6 +182,7 @@ h5{
     padding: 10px 20px;
     border-radius: 10px;
     font-weight: 700;
+    font-size: 15px;
   }
   .blink{
     animation: blinker 1s linear infinite;
@@ -177,7 +190,7 @@ h5{
   
   @keyframes blinker {
     50% {
-      opacity: 0;
+      opacity: 0;font-family: 'Rock Salt', cursive;
     }
   }
 
