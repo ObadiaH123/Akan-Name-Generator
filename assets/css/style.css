@@ -44,7 +44,7 @@
   /* styles for the main content div */
   .content {
     grid-area: content;
-    background-image: url('/assets/images/img2.png');
+    background-image: url('https://twitter.com/ItsEngObadiah/status/1416651384267677696/photo/1');
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
@@ -140,7 +140,7 @@ h5{
     height: 45vw;
     /*to make the height and width responsive*/
     width: 20%;
-    background: url('/assets/images/clock.png') no-repeat;
+    background: url('https://twitter.com/ItsEngObadiah/status/1416651289606463488/photo/1') no-repeat;
     /*setting our background image*/
     background-size: 100%;
 }
